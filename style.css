@@ -1,0 +1,17 @@
+.titre-page{
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+
+}
+.qcm{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#qcm{
+    
+}

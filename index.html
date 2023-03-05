@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Qcm</title>
+</head>
+<body>
+    <h1 class="titre-page">Qcm pour voir si vous êtes fortiches</h1>
+    <div class="qcm">
+        <form id="qcm1">
+            <h2 class="question">Que veut dire Tad ?</h2>
+            <label><input type="checkbox" class="qcm1" value="1">Tableau adjacent de déplacement</label><br>
+            <label><input type="checkbox" class="qcm1" value="0">Travail à domicile</label><br>
+            <label><input type="checkbox" class="qcm1" value="0">Tableau d'adjacence</label><br>
+            <label><input type="checkbox" class="qcm1" value="0">Table à domicile</label><br>
+            <button type="button" onclick="qcm(1)">->valider</button><br>
+            <p id="reponse-qcm1"></p>
+        </form>
+    </div>
+    <div class="qcm">
+        <form id="qcm2">
+            <h2 class="question">Que veut dire MAD ?</h2>
+            <label><input type="checkbox" class="qcm2" value="1">Tableau adjacent de déplacement</label><br>
+            <label><input type="checkbox" class="qcm2" value="0">Travail à domicile</label><br>
+            <label><input type="checkbox" class="qcm2" value="0">Tableau d'adjacence</label><br>
+            <label><input type="checkbox" class="qcm2" value="0">Table à domicile</label><br>
+            <button type="button" onclick="qcm(2)">-> valider</button>
+            <p id="reponse-qcm2"></p>
+        </form>
+    </div>
+    <div class="qcm">
+        <form id="qcm3">
+            <h2 class="question">Qu'est ce qu'un graphe isomorphe ?</h2>
+            <label><input type="checkbox" class="qcm3" value="0">Le graphe a le meme nom de sommet </label><br>
+            <label><input type="checkbox" class="qcm3" value="0">Le graphe a un nombre de sommet identique </label><br>
+            <label><input type="checkbox" class="qcm3" value="1">Les arretes des graphes sont identiques mais les sommets different </label><br>
+            <label><input type="checkbox" class="qcm3" value="0">Les arretes du graphes sont inversées</label><br>
+            <button type="button" onclick="qcm(3)">-> valider</button>
+            <p id="reponse-qcm3"></p>
+        </form>
+    </div>
+    
+</body>
+</html>
